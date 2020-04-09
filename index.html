@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <meta name="twitter:title" content="Motorockstar Official 2020">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Motorockstar Best Riding Gear Deals for Men and Women">
+    <meta property="og:image" content="/assets/img/cropped-logo_transparent-2-1.png?h=ab7c71590471cd96e3ea19473492ff2b">
+    <meta name="twitter:image" content="/assets/img/cropped-logo_transparent-2-1.png?h=ab7c71590471cd96e3ea19473492ff2b">
+    <meta name="twitter:description" content="New Motorcycle Riding Gear for Men and Women 2020">
+    <link rel="icon" type="image/jpeg" sizes="1080x1080" href="/assets/img/logo.jpg?h=0c43cbc40bf7d57cfe5c71ffdb8092fa">
+    <link rel="icon" type="image/jpeg" sizes="1080x1080" href="/assets/img/logo.jpg?h=0c43cbc40bf7d57cfe5c71ffdb8092fa">
+    <link rel="icon" type="image/jpeg" sizes="1080x1080" href="/assets/img/logo.jpg?h=0c43cbc40bf7d57cfe5c71ffdb8092fa">
+    <link rel="icon" type="image/jpeg" sizes="1080x1080" href="/assets/img/logo.jpg?h=0c43cbc40bf7d57cfe5c71ffdb8092fa">
+    <link rel="icon" type="image/jpeg" sizes="1080x1080" href="/assets/img/logo.jpg?h=0c43cbc40bf7d57cfe5c71ffdb8092fa">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=5a76a1e40c75f736fe001cf53782de8d">
+    <link rel="manifest" href="/manifest.json?h=508743b8041c1341607f210d94e1db15">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css?h=ce5d7c96c50e916b24ea5231207c382b">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+<style>
+#myCarousel .carousel-item .mask {
+    position: absolute;
+    top: 0;
+	left:0;
+	height:100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+#myCarousel h4{
+	font-size:50px;
+	margin-bottom:15px;
+	color:#black;
+	line-height:100%;
+	letter-spacing:0.5px;
+	font-weight:600;
+}
+#myCarousel p{
+	font-size:18px;
+	margin-bottom:15px;
+	color:#1f55e0;
+}
+#myCarousel .carousel-item a{background:#312dff; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; }
+#myCarousel .carousel-item a:hover{background:#394fa2; text-decoration:none;  }
+
+#myCarousel .carousel-item h4{-webkit-animation-name:fadeInLeft; animation-name:fadeInLeft;} 
+#myCarousel .carousel-item p{-webkit-animation-name:slideInRight; animation-name:slideInRight;} 
+#myCarousel .carousel-item a{-webkit-animation-name:fadeInUp; animation-name:fadeInUp;}
+#myCarousel .carousel-item .mask img{-webkit-animation-name:slideInRight; animation-name:slideInRight; display:block; height:auto; max-width:100%;}
+#myCarousel h4, #myCarousel p, #myCarousel a, #myCarousel .carousel-item .mask img{-webkit-animation-duration: 1s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+#myCarousel .container {max-width: 1430px;  }
+#myCarousel .carousel-item{height:100%; min-height:550px; }
+#myCarousel{position:relative; z-index:1; center center no-repeat; }
+
+.carousel-control-next, .carousel-control-prev{height:40px; width:40px; padding:12px; top:50%; bottom:auto; transform:translateY(-50%); background-color: #1f55e0; }
+
+
+.carousel-item {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+.carousel-fade .carousel-item {
+	opacity: 0;
+	-webkit-transition-duration: .6s;
+	transition-duration: .6s;
+	-webkit-transition-property: opacity;
+	transition-property: opacity
+}
+.carousel-fade .carousel-item-next.carousel-item-left, .carousel-fade .carousel-item-prev.carousel-item-right, .carousel-fade .carousel-item.active {
+	opacity: 1
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-right.active {
+	opacity: 0
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0)
+}
+@supports (transform-style:preserve-3d) {
+	.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0)
+	}
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+ 
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+ </style>
+</head>
+
+<body class="text-center">
+    <!-- Start: Navbar - Apple -->
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
+        <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#menu"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i class="la la-navicon"></i></span></button><img src="/assets/img/cropped-logo_transparent-2-1.png?h=ab7c71590471cd96e3ea19473492ff2b" style="width: 100px;margin-bottom: 20px;height: 50px;">
+            <div
+                class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav flex-grow-1 justify-content-between">
+                    <li class="nav-item d-none d-xs-block d-md-block" role="presentation"><a class="nav-link" data-aos="fade-right" data-aos-duration="750" href="#"><i class="fa fa-star-o apple-logo" style="font-size: 10px;padding-bottom: 30px;"></i><i class="fa fa-motorcycle apple-logo" style="font-size: 17px;"></i></a></li>
+                    <li
+                        class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="#" style="font-size: 15px;">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="p2.html" style="font-size: 15px;">Shop All</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="https://www.google.com" style="font-size: 15px;">Head Gear</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="#" style="font-size: 15px;">Body Gear</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="#" style="font-size: 15px;">Accesories</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="#" style="font-size: 15px;">Contact</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="#" style="font-size: 15px;">Support</a></li>
+                        <li class="nav-item d-none d-xs-block d-md-block" role="presentation">
+                            <p data-aos="fade-left" data-aos-duration="500" style="font-size: 10px;">&nbsp;<a href="#" style="padding: 3px;"><i class="fa fa-wechat" data-bs-hover-animate="pulse" style="padding: 10px;font-size: 19px;"></i></a><a href="#" style="padding: 3px;"><i class="fa fa-facebook-official" data-bs-hover-animate="pulse" style="padding: 10px;font-size: 21px;"></i></a>
+                                <a
+                                    href="#" style="padding: 3px;"><i class="fa fa-twitter-square" data-bs-hover-animate="pulse" style="padding: 10px;font-size: 21px;"></i></a><a href="#" style="padding: 3px;"><i class="fa fa-instagram" data-bs-hover-animate="pulse" style="padding: 10px;font-size: 21px;"></i></a></p>
+                        </li>
+                        <li class="nav-item d-none d-xs-block d-md-block" role="presentation"></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- End: Navbar - Apple -->
+    <header data-bs-parallax-bg="true" class="masthead text-white text-center" style="background: url('/assets/img/bg-masthead.jpg?h=3d56ee9570bd6ab1d22f0827b18a0a99')no-repeat center center;background-size: cover;background-image: url(&quot;/assets/img/rsz_light-streak-photography-of-city-street-1454253-min.jpg?h=449b5566cdc2a6ed202af8f327da9805&quot;);padding-bottom: 100px;padding-top: 120px;">
+        <div class="overlay" style="width: 1200;height: 700;"></div>
+        <div class="container" style="height: 333px;"><div class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="MiCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#MiCarousel" data-slide-to="0" class="carousel-pagination active"></li>
+                        <li data-target="#MiCarousel" data-slide-to="1" class="carousel-pagination"></li>
+                        <li data-target="#MiCarousel" data-slide-to="2" class="carousel-pagination"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-6 div-l">
+                                    <div class="carousel-img" style="background-image: url(/assets/img/PromoCard_Sale_2_400x180.jpg?h=4240f107d1cc33d21763ee7585dd0dda);">
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-md-6 div-r">
+                                    <h3> Off Road Gear</h3>
+                                    <hr>
+                                    <p>Dirt bikes spell excitement, and excitement is the perfect word to describe the dirt bike and motocross parts, gear and apparel</p>
+                                    <button class="btn btn-primary">View More</button>
+                                </div>
+                            </div>                                
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6 div-l">
+                                    <div class="carousel-img" style="background-image: url(https://images.pexels.com/photos/1020054/pexels-photo-1020054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);">
+                                                                     </div>
+                                </div>
+                                <div class="col-md-6 div-r">
+                                    <h3>Lady's Gear Up</h3>
+                                    <hr>
+                                    <p>Riding gear for women you love and express yourself on the track or trail. We'll be there to share your journey!</p>
+                                    <button class="btn btn-primary">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6 div-l">
+                                    <div class="carousel-img" style="background-image: url(/assets/img/20938_1537820364_desktop_1x.jpg?h=53826dee91478f25d9734bdc52e32736);">
+                                                                         </div>
+                                </div>
+                                <div class="col-md-6 div-r">
+                                    <h3>Great Sales</h3>
+                                    <hr>
+                                    <p>You can't mess with mesh! When the mercury climbs, there is no replacement for a quality mesh motorycle jacket.Unless you're into real leather. we got you!</p>
+                                    <button class="btn btn-primary">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev carousel-controls" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next carousel-controls" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+    </header>
+    <!-- Start: Article List -->
+    <div class="article-list" style="background-color: rgb(28,28,28);">
+        <div class="container" style="padding-right: 5px;padding-left: 5px;">
+            <!-- Start: Intro -->
+            <div class="intro">
+                <h2 class="text-center" style="padding-top: 5px;color: rgb(13,134,255);margin-bottom: 5px;">Latest News</h2>
+            </div>
+            <!-- End: Intro -->
+            <!-- Start: Articles -->
+            <div class="row articles" style="padding: 0;padding-bottom: 0;margin: 0;margin-right: 0;margin-left: 0;">
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid pulse animated" src="/assets/img/close-up-photo-of-man-and-dog-riding-motorcycle-1796313%20(2).webp?h=da7de074b63b70ecbeb15d2088bb90e2"></a>
+                    <h3 class="name" style="color: rgb(171,213,255);">Awesome dog on the fuckin bike</h3><a class="action" href="#"><i class="fa fa-arrow-circle-right" data-aos="fade-right" data-aos-duration="550"></i></a>
+                    <p class="description" style="color: rgb(171,213,255);">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item" style="padding-top: 10px;"><a href="#"><img class="img-fluid pulse animated" src="/assets/img/black-motorcycle-2611688-min_1_346x227.jpg?h=21c266c8f5a01b2b08f20fb59353d45a"></a>
+                    <h3 class="name" style="color: rgb(171,213,255);">New Deals for Forty Fight 30% OFF</h3><a class="action" href="#"><i class="fa fa-arrow-circle-right" data-aos="fade-right" data-aos-duration="600"></i></a>
+                    <p class="description" style="color: rgb(171,213,255);">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item" style="margin-bottom: 10px;"><a href="#"><img class="img-fluid pulse animated" src="/assets/img/man-person-dust-sport-2625%20(1).webp?h=1f209b1eb8089a8e043394989aa42268"></a>
+                    <h3 class="name" style="color: rgb(171,213,255);">Here is what to do and what Not&nbsp; with your bike</h3><a class="action" href="#"><i class="fa fa-arrow-circle-right" data-aos="fade-right" data-aos-duration="600"></i></a>
+                    <p class="description" style="color: rgb(171,213,255);">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+            </div>
+            <!-- End: Articles -->
+        </div>
+    </div>
+    <!-- End: Article List -->
+    <h1 class="text-center" style="color: rgb(56,123,255);margin-top: 12px;">New Trending Products</h1>
+    <p class="text-center" style="color: rgb(56,123,255);font-size: 14px;"><strong>Need a motorcycle helmet to stay safe on the road? Want new chaps that can endure any weather condition?</strong></p><div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="mask flex-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-7 col-12 order-md-1 order-2">
+              <h4>Patched Vest <br>
+                Genuine Leather</h4>
+              <p>Back patches read: <br>
+                 
+THESE COLORS DON’T RUN, LOUD PIPES SAVE LIVES, ROUTE 66 and RIDE FREE.</p>
+              <a href="#">View More</a> </div>
+            <div class="col-md-5 col-12 order-md-2 order-1"><img src="/assets/img/718nq9pWB-L._AC_SL1010__1_600x600.jpg?h=5dc4095145054c3ba6b6f1458ebb6b36" class="mx-auto" alt="slide"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="mask flex-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-7 col-12 order-md-1 order-2">
+              <h4>Heavy Duty <br>
+                Waterproof 104 Inches</h4>
+              <p>Cover that can not broken by the wolf’s claws <br>
+                it can bring to trust and safety to customers,we think it can be one of the best motorcycle cover!</p>
+              <a href="#">View More</a> </div>
+            <div class="col-md-5 col-12 order-md-2 order-1"><img src="/assets/img/motorycle_cover_long_waterproof_2020.jpg?h=cc75b2808c0cfd57c3fc36dc344ccf6d" class="mx-auto" alt="slide"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="mask flex-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-7 col-12 order-md-1 order-2">
+              <h4>Good Looking<br>
+             Strong Protection</h4>
+              <p>This Jacket is worthy to have it <br>
+               for your professional team</p>
+              <a href="#">View More</a> </div>
+            <div class="col-md-5 col-12 order-md-2 order-1"><img src="/assets/img/motorcyle_jacket_Tribe_2020_600x600.jpg?h=0232133573b07559245a8f23db541120" class="mx-auto" alt="slide"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+<!--slide end--> <img data-bs-hover-animate="rubberBand" src="/assets/img/logo.jpg?h=0c43cbc40bf7d57cfe5c71ffdb8092fa" style="width: 150px;height: 150px;">
+    <div
+        class="container" style="margin-top: 20px;">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                    <div class="d-flex features-icons-icon"><img data-bs-hover-animate="pulse" src="/assets/img/hpb_helmets.jpg?h=15f3c72246c5e508dca5aa9a2f4bdb0b" style="width: 100%;height: 150px;"></div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                    <div class="d-flex features-icons-icon"><img data-bs-hover-animate="pulse" src="/assets/img/hpb_vests.jpg?h=0ff100baf44f6ce91ee0662441194ab5" style="width: 100%;height: 150px;margin-top: 33px;"></div>
+                </div>
+            </div>
+            <div class="col-lg-4"><img data-bs-hover-animate="pulse" src="/assets/img/hpb_jackets.jpg?h=687ba4bcc993afee563749eb6b053ebb" style="width: 100%;height: 150px;">
+                <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3"></div>
+            </div>
+        </div>
+        </div>
+        <section class="testimonials text-center bg-light" style="padding: 10px;"><div id='collection-component-1586232176013'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'check0ut.myshopify.com',
+      storefrontAccessToken: '21ea2cf5020ecc2fa2be5af874839e92',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '160412270691',
+        node: document.getElementById('collection-component-1586232176013'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "cart": {
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+    "contents": {
+      "note": true
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script></section>
+        <section class="features-icons bg-light text-center" style="padding-bottom: 20px;padding-top: 20px;">
+            <div class="container" style="padding-bottom: 30px;padding-top: 10px;"></div>
+            <!-- Start: dh-row-text-image-right-responsive -->
+            <div class="row clearmargin clearpadding row-image-txt" style="background-color: rgb(255,255,255);">
+                <div class="col-xs-12 col-sm-6 col-md-6 clearmargin clearpadding col-sm-push-6" style="background-image: url(&quot;/assets/img/black-and-white-crew-neck-shirt-1808659_600x400.jpg?h=20dfe7cc1faa010b6431f17ff6f1c657&quot;);background-size: cover;height: 400px;background-position: center;padding: 5px;">
+                    <div></div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6" style="padding:20px;">
+                    <h1 class="display-4" style="color: rgb(0,0,0);">Riding Gear For Men</h1>
+                    <hr>
+                    <p style="color: rgb(0,0,0);"><strong>Choose from our top-notch motorcycle riding gear in a variety of styles and colors that complement your superior riding skills. We offer a variety of&nbsp;motorcycle riding gear for men, including rain wear, protective gear, pants and chaps, jackets and vests, helmets, head wraps, eyewear, gloves, and boots.</strong></p>
+                    <div
+                        style="text-align:center"><button class="btn btn-light btn-lg" type="button" style="background-color: rgb(56,123,255);margin: 10px;">View More&nbsp;</button></div><img src="/assets/img/Screenshot-20200403143546-687x356%20(2).webp?h=6c6cad87719c9b653a01f97db3434812" style="width: 222px;"></div>
+            </div>
+            <!-- End: dh-row-text-image-right-responsive -->
+            <!-- Start: dh-row-text-image-right-responsive -->
+            <div class="row clearmargin clearpadding row-image-txt" style="background-color: rgb(255,255,255);">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6" style="padding:20px;">
+                    <h2 class="display-4" style="color: rgb(0,0,0);font-size: 37px;">Women's Collection</h2>
+                    <hr>
+                    <p style="color: rgb(0,0,0);"><strong>"Never ride a motorcycle in stilettos and a miniskirt."</strong><br><br><strong>― Maggie Grace</strong><img class="rounded-circle" src="/assets/img/motorockstar_com_72468476_2162813767344421_6010494391882861075_n-240x300.jpg?h=2ec89a9479055a603d8fac924b448d3b" loading="lazy" style="width: 150px;"><br></p>
+                    <p style="color: rgb(0,0,0);"><strong>Best seller and&nbsp;high-quality brands for different riding styles from Cruiser, Street, Off-road, ATV, UTV to Snowmobile. We merchandise complete selection to meet all types of riding needs such as style,&nbsp;fashion, and safety.&nbsp;</strong></p>
+                    <div
+                        style="text-align:center"><button class="btn btn-light btn-lg" type="button" style="background-color: rgb(56,123,255);">View More</button></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 clearmargin clearpadding col-sm-push-6" style="background-image: url(&quot;/assets/img/photo-of-person-riding-harley-davidson-motorcycle-1796298_600x555.jpg?h=a5cd9c8c31b0c768148dd3d75b272405&quot;);background-size: cover;height: 700px;background-position: left;">
+                <div></div>
+            </div>
+            </div>
+            <!-- End: dh-row-text-image-right-responsive -->
+            <!-- Start: dh-row-text-image-right-responsive -->
+            <div class="row clearmargin clearpadding row-image-txt" style="background-color: rgb(255,255,255);">
+                <div class="col-xs-12 col-sm-6 col-md-6 clearmargin clearpadding col-sm-push-6" style="background-image: url(&quot;/assets/img/man-riding-motocross-dirt-bike-2806495.jpg?h=556eb896bfdb17b7054e8055e31b8d80&quot;);background-size: cover;height: 555px;background-position: center;">
+                    <div></div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6" style="padding:20px;">
+                    <h2 class="display-4" style="color: rgb(0,0,0);font-size: 32px;">Youth's Collection</h2>
+                    <hr>
+                    <p style="color: rgb(0,0,0);"><strong>Whatever type of men's riding gear you need, we have the right product at a price that won't break the bank.Browse our options for&nbsp;men's street riding gear&nbsp;below, and don't hesitate to&nbsp;contact us&nbsp;if you have questions about our stock.</strong></p>
+                    <div
+                        style="text-align:center"><button class="btn btn-light btn-lg" type="button" style="background-color: rgb(56,123,255);margin: 10px;">View More&nbsp;</button></div><img src="/assets/img/motorockstar_com_67314788_370205563670905_3655787497835091613_n-819x1024_320x450.jpg?h=e36db3d8fea6250198346a7ba920f2dc" style="width: 320px;height: 450px;background-color: #ffffff;color: #f47735;"></div>
+            </div>
+            <!-- End: dh-row-text-image-right-responsive -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                            <div class="d-flex features-icons-icon"><img src="/assets/img/31148_1584824431_tablet_2x%20(1).jpg?h=6378268378607e8bdb8a3f0dce2bc302" style="width: 100%;"></div>
+                            <p class="lead mb-0" style="color: rgb(0,0,0);font-size: 16px;">Most items are being shipped same day and are delivered in 3 days (look for the fast processing badge)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                            <div class="d-flex features-icons-icon"><i class="fa fa-map-signs m-auto text-primary" data-bs-hover-animate="pulse" style="font-size: 45px;"></i></div>
+                            <h3 style="font-size: 21px;">Hassle Free Returns</h3>
+                            <p class="lead mb-0" style="color: rgb(0,0,0);font-size: 15px;">If your order arrives and it is not right, we will fix it, NO NONSENSE, we promise.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                            <div class="d-flex features-icons-icon"><i class="fa fa-star m-auto text-primary" data-bs-hover-animate="pulse" style="font-size: 45px;"></i></div>
+                            <h3 style="font-size: 21px;">Satisfaction Guaranteed</h3>
+                            <p class="lead mb-0" style="color: rgb(0,0,0);font-size: 15px;">Browse freely on our new optimized speedy mobile friendly WebApp&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="call-to-action text-white text-center" style="background: url(&quot;/assets/img/bg-masthead.jpg?h=3d56ee9570bd6ab1d22f0827b18a0a99&quot;) no-repeat center center;background-size: cover;background-image: url(&quot;/assets/img/black-and-gray-dslr-camera-2317408_1200x322.jpg?h=838af83414ca9485987d46093385883e&quot;);padding-bottom: 100px;">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 mx-auto">
+                        <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+                    </div>
+                    <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                        <form>
+                            <div class="form-row">
+                                <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" type="email" placeholder="Enter your email..."></div>
+                                <div class="col-12 col-md-3"><button class="btn btn-primary btn-block btn-lg" type="submit">Sign up!</button></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start: Pretty Footer -->
+        <footer style="margin: 0;">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 footer-navigation">
+                    <h6 class="display-4"></h6>
+                    <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Shop All</a><strong> · </strong><a href="#">Shipping Terms</a><strong> · </strong><a href="#">Return Policy</a><strong> · </strong><a href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p>
+                    <img
+                        src="/assets/img/cropped-logo_transparent-2-1.png?h=ab7c71590471cd96e3ea19473492ff2b" style="width: 120px;">
+                        <p class="company-name">Design by FlowMaster.Tech&nbsp; © 2020</p>
+                </div>
+                <div class="col-sm-6 col-md-4 footer-contacts">
+                    <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                        <p><span class="new-line-span">6300 W Irving Park Road</span> Chicago, Illinois</p>
+                    </div>
+                    <div><i class="fa fa-phone footer-contacts-icon"></i>
+                        <p class="footer-center-info email text-left"> +1 414 4391880</p>
+                    </div>
+                    <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                        <p> <a href="#" target="_blank">contact@motorockstar.com</a></p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4 footer-about">
+                    <h4>MOTOROCKSTAR</h4>
+                    <p> Ride hard or stay home</p>
+                    <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                </div>
+            </div>
+        </footer>
+        <!-- End: Pretty Footer -->
+        <!-- Start: Social Menu Sticky -->
+        <div id="fixed-social">
+            <div><a class="fixed-facebook" href="#" target="_blank"><i class="fa fa-facebook"></i><span>&nbsp;Facebook</span></a></div>
+            <div><a class="fixed-instagram" href="#" target="_blank"><i class="fa fa-instagram"></i><span>&nbsp;Instagram</span></a></div>
+            <div><a class="fixed-twitter" href="#" target="_blank"><i class="fa fa-twitter"></i><span>&nbsp;Twitter</span></a></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- End: Social Menu Sticky -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+        <script src="/assets/js/script.min.js?h=1e8acba33b1daed23b07b1c1cc02155a"></script>
+</body>
+
+</html>
